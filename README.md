@@ -1,4 +1,4 @@
-# Giới thiệu về SCD40
+# Giới thiệu
 SCD40 là cảm biến khí CO2 dựa trên nguyên lý **quang âm (Photoacoustic)**. Công nghệ này cho phép thiết kế cảm biến cực kỳ nhỏ gọn nhưng vẫn đạt độ chính xác cao, vượt trội hơn các dòng cảm biến NDIR truyền thống.
 
 ## Thông số kỹ thuật
@@ -20,8 +20,6 @@ Hệ thống sử dụng bus I2C mặc định của ESP32 để đảm bảo t�
 | **GND** | GND | Nối đất |
 | **SCL** | GPIO 22 | I2C Clock |
 | **SDA** | GPIO 21 | I2C Data |
-
----
 
 # Tính năng mã nguồn
 Mã nguồn được thiết kế để tối ưu hóa năng lượng dựa trên nhu cầu thực tế của người dùng:
